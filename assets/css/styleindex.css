@@ -126,6 +126,11 @@ footer{
         flex-direction: column;
     }
 }
+#adsi{
+
+
+    color: greenyellow;
+}
 @media  (max-width:748px) {
     footer{
         flex-direction: column;
