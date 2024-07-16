@@ -101,12 +101,12 @@ html{
             color: red;
         }
         #ads-igreja{
-            height: 10vh;
+            height: 14vh;
             background-image: url('../imagens/pexels-novikau-andrei-58499501-7939467.jpg');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-           
+           cursor:pointer;
         }
        }
     }
