@@ -27,26 +27,100 @@
   </head>
 
 <body>
-   <!-- Botão para entrar em tela cheia -->
-  <button onclick="openFullscreen()">Assistir em Tela Cheia</button>
+    <header id="header-1">
+        <span >Igreja São José</span>
+    </header>
+    <main id="main-1">
+	    
 
-  <!-- iframe do Google Drive -->
-  <iframe id="videoFrame" src="https://drive.google.com/file/d/17FkCwtfZ8ndM8mUV5MMZebWcqBxCktMu/preview" width="640" height="480" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        <div id="img-padre">
+            <h1>
+                Todos Pertencem
+            </h1>
+            <div id="btn">
+                <span>Junte-se a nós</span>
+                <a href="#secao-anuncio"><button type="button"> APOIAR</button></a>
+            </div>
 
-  <script>
-    // Função para abrir o iframe em tela cheia
-    function openFullscreen() {
-      var iframe = document.getElementById('videoFrame');
-      if (iframe.requestFullscreen) {
-        iframe.requestFullscreen();
-      } else if (iframe.mozRequestFullScreen) { // Firefox
-        iframe.mozRequestFullScreen();
-      } else if (iframe.webkitRequestFullscreen) { // Chrome, Safari and Opera
-        iframe.webkitRequestFullscreen();
-      } else if (iframe.msRequestFullscreen) { // IE/Edge
-        iframe.msRequestFullscreen();
+        </div>
+        <section id="secao-anuncio">
+            <h1>Clique e Reconstrua</h1>
+            <span id="texto-comover">
+                Caro(a) irmão(ã),
+
+                Cada clique é uma oportunidade de reconstruir nossa igreja. Ao clicar, você apoia nossa reabilitação e
+                fortalece nossa comunidade. Juntos, fazemos a diferença!
+
+                Que Deus o(a) abençoe! 🙏🌟
+            </span>
+            <h1>Clique nos anuncios abaixo</h1>
+            <table id="ads-ads" border="1">
+                <thead>
+                    <th>Anuncio para Manter o site no Ar. <span> Clique e Ajude a Plataforma </span> </th>
+                </thead>
+                <tbody>
+                    <tr>
+
+                        
+  <td id="ads-igreja" onclick="adsSite()">
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="adsi"> <h1> Anúncio Para ajudar a nossa Igreja </h1></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+
+                        <td id="ads-igreja" onclick="adsIgreja()">
+
+                        </td>
+                    
+                </tfoot>
+            </table>
+        
+        <script type="text/javascript">
+	atOptions = {
+		'key' : 'de9d4565c1d1b3aca97260ef131a91cb',
+		'format' : 'iframe',
+		'height' : 50,
+		'width' : 320,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.topcreativeformat.com/de9d4565c1d1b3aca97260ef131a91cb/invoke.js"></script>
+        </section>
+<footer>
+    <div id="nome-igreja">
+        <span>Igreja de São José</span>
+    </div>
+    <div id="contactos">
+        <span>
+            +244 933474998 
+        </span>
+        <span>
+            manuelgangaferreira@gmail.com
+        </span>
+    </div>
+    <div id="loc">
+        <span>Benfica-Partido</span>
+    </div>
+</footer>
+    </main>
+    <script src="./assets/javascript/brainindex.js"></script>
+    
+ <script>
+        function adsIgreja() {
+            location.reload(); 
+            window.open('https://www.highrevenuenetwork.com/juts12ssv?key=7c74e76ab347078cd27e946c0748727a','_blank');
+        }
+      function adsSite() {
+        
+            location.reload(); 
+            window.open('https://www.highrevenuenetwork.com/juts12ssv?key=7c74e76ab347078cd27e946c0748727a','_blank');
       }
-    }
+    </script>
+ 
   </body>
 
 </html>
